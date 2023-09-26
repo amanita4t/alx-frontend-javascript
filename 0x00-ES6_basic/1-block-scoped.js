@@ -1,10 +1,10 @@
 export default function taskBlock(trueOrFalse) {
-    let task = false; // Use let instead of var
-    const task2 = true; // Use const instead of var
+    var task = false;
+    var task2 = true;
   
     if (trueOrFalse) {
-      task = true; // Update the existing 'task' variable (no need to use var/let/const here)
-      const task2 = false; // Declare a new block-scoped 'task2' variable using const
+      var innerTask = true;   // Use a different variable name
+      var innerTask2 = false; // Use a different variable name
     }
   
     return [task, task2];
