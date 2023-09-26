@@ -3,8 +3,8 @@ export default function taskBlock(trueOrFalse) {
     var task2 = true;
   
     if (trueOrFalse) {
-      var innerTask = true;   // Use a different variable name
-      var innerTask2 = false; // Use a different variable name
+      let task = true;   // Use let instead of var
+      let task2 = false; // Use let instead of var
     }
   
     return [task, task2];
