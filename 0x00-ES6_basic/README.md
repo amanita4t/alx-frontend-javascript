@@ -1,1 +1,1 @@
-#first java lesson
+## 0x00. ES6 Basics
